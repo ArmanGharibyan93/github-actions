@@ -6,3 +6,9 @@ jobs:
     steps:
       - name: Print on comsole
         run: echo Hello GH actions!
+      - name: Print few lines
+        run: | 
+          echo First line
+          echo second line
+          
+          
