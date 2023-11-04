@@ -1,0 +1,8 @@
+name: Test workflow
+on: [workflow_dispatch]
+jobs:
+  first_job:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Print on comsole
+        run: echo Hello GH actions!
